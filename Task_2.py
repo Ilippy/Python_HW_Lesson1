@@ -6,8 +6,8 @@
 # 100 -> 1 (1 + 0 + 0)
 def enterNumber() -> int:
     '''Возвращает целое число, введенное с терминала'''
-    while true:
-        a = input("Введите целое число")
+    while True:
+        a = input("Введите целое число: \n")
         try:
             a = int(a)
             return a
